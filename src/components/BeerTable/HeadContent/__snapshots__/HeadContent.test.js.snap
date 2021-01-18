@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeadContent snapshots and actions should render correctly 1`] = `
+<thead
+  className="MuiTableHead-root"
+  data-testid="head-content"
+  role={null}
+>
+  <tr
+    className="MuiTableRow-root MuiTableRow-head"
+    role={null}
+  >
+    <th
+      aria-sort={null}
+      className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter"
+      scope="col"
+      style={
+        Object {
+          "minWidth": 80,
+        }
+      }
+    >
+      Beer
+    </th>
+    <th
+      aria-sort={null}
+      className="MuiTableCell-root MuiTableCell-head"
+      scope="col"
+      style={
+        Object {
+          "minWidth": 180,
+        }
+      }
+    >
+      Description
+    </th>
+    <th
+      aria-sort={null}
+      className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight"
+      scope="col"
+      style={
+        Object {
+          "minWidth": 130,
+        }
+      }
+    >
+      <span
+        aria-disabled={false}
+        className="MuiButtonBase-root MuiTableSortLabel-root sortLabel MuiTableSortLabel-active"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        Start Date
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionDesc"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"
+          />
+        </svg>
+      </span>
+    </th>
+    <th
+      aria-sort={null}
+      className="MuiTableCell-root MuiTableCell-head"
+      scope="col"
+      style={
+        Object {
+          "minWidth": 140,
+        }
+      }
+    >
+      Category
+    </th>
+    <th
+      aria-sort={null}
+      className="MuiTableCell-root MuiTableCell-head"
+      scope="col"
+      style={
+        Object {
+          "minWidth": 150,
+        }
+      }
+    >
+      Responsible
+    </th>
+    <th
+      aria-sort={null}
+      className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight"
+      scope="col"
+      style={
+        Object {
+          "minWidth": 140,
+        }
+      }
+    >
+      Savings Amount
+    </th>
+    <th
+      aria-sort={null}
+      className="MuiTableCell-root MuiTableCell-head"
+      scope="col"
+      style={
+        Object {
+          "minWidth": 92,
+        }
+      }
+    >
+      Currency
+    </th>
+    <th
+      aria-sort={null}
+      className="MuiTableCell-root MuiTableCell-head"
+      scope="col"
+      style={
+        Object {
+          "minWidth": 130,
+        }
+      }
+    >
+      Complexity
+    </th>
+  </tr>
+</thead>
+`;

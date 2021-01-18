@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Complexity Component should render Hazardous 1`] = `
+<div
+  className="MuiBox-root MuiBox-root-7 makeStyles-tag-1 makeStyles-hazardous-4"
+  data-testid="complexity"
+>
+  Hazardous
+</div>
+`;
+
+exports[`Complexity Component should render Moderate 1`] = `
+<div
+  className="MuiBox-root MuiBox-root-6 makeStyles-tag-1 makeStyles-moderate-3"
+  data-testid="complexity"
+>
+  Moderate
+</div>
+`;
+
+exports[`Complexity Component should render Simple 1`] = `
+<div
+  className="MuiBox-root MuiBox-root-5 makeStyles-tag-1 makeStyles-simple-2"
+  data-testid="complexity"
+>
+  Simple
+</div>
+`;

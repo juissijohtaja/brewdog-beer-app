@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Description Component should render Lorem ipsum dolor sit amet 1`] = `
+<div
+  className="MuiBox-root MuiBox-root-3"
+  data-testid="description"
+>
+  <div
+    aria-describedby={null}
+    className="MuiBox-root MuiBox-root-4 makeStyles-textWrap-1 makeStyles-sizeLarge-2"
+    onClick={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    title={null}
+  >
+    Lorem ipsum dolor sit amet
+  </div>
+</div>
+`;

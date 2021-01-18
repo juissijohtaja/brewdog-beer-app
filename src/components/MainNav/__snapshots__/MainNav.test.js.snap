@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainNav Component MainNav should render AppBar, EqualizerIcon and Beers 1`] = `
+<div
+  className="MuiBox-root MuiBox-root-4"
+  data-testid="main-nav"
+>
+  <header
+    aria-label="main menu"
+    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary makeStyles-navTheme-3 MuiPaper-elevation4"
+  >
+    <div
+      className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+    >
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root makeStyles-menuButton-1"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M10 20h4V4h-4v16zm-6 0h4v-8H4v8zM16 9v11h4V9h-4z"
+        />
+      </svg>
+      <h6
+        className="MuiTypography-root makeStyles-title-2 MuiTypography-h6"
+      >
+        Beers
+      </h6>
+    </div>
+  </header>
+</div>
+`;

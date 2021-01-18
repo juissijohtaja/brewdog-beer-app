@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataFilter Component search field should render empty Search field, SearchIcon and placeholder text 1`] = `
+<div
+  className="MuiBox-root MuiBox-root-2"
+  data-testid="data-filter"
+>
+  <div
+    aria-label="search"
+    className="MuiFormControl-root MuiTextField-root makeStyles-root-1 MuiFormControl-marginNormal MuiFormControl-fullWidth"
+  >
+    <div
+      className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedStart MuiOutlinedInput-adornedStart MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
+      onClick={[Function]}
+    >
+      <div
+        className="MuiInputAdornment-root MuiInputAdornment-positionStart"
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+          />
+        </svg>
+      </div>
+      <input
+        aria-invalid={false}
+        autoFocus={false}
+        className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart MuiOutlinedInput-inputAdornedStart MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
+        disabled={false}
+        id="searchField"
+        onAnimationStart={[Function]}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="Search..."
+        required={false}
+        type="text"
+      />
+      <div
+        className="MuiInputAdornment-root MuiInputAdornment-positionEnd"
+      >
+        <button
+          aria-label="clear filter"
+          className="MuiButtonBase-root MuiIconButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          />
+        </button>
+      </div>
+      <fieldset
+        aria-hidden={true}
+        className="PrivateNotchedOutline-root-3 MuiOutlinedInput-notchedOutline"
+        style={
+          Object {
+            "paddingLeft": 8,
+          }
+        }
+      >
+        <legend
+          className="PrivateNotchedOutline-legend-4"
+          style={
+            Object {
+              "width": 0.01,
+            }
+          }
+        >
+          <span
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "&#8203;",
+              }
+            }
+          />
+        </legend>
+      </fieldset>
+    </div>
+  </div>
+</div>
+`;
