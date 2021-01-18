@@ -17,7 +17,7 @@ const App = () => {
 
   useEffect(() => {
     dispatch(getBeers())
-  }, [dispatch])
+  }, [])
 
   return (
     <Box data-testid='app'>
