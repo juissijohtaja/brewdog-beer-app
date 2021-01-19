@@ -1,13 +1,8 @@
-# Brewdog beer app
+# Brewdog Beers & Food Matcher - React Frontend App, Redux, Material UI, Json API
 
-### Install dependencies
-npm install
+![Brewdog Beers & Food Design](docs/beerfood.jpg)
 
-### Run app
-npm start
-
-### Run tests
-npm test
+Testing Leaflet maps and Helsinki Open Events API with React.
 
 ### Demo
-[Beer App](https://###.firebaseapp.com/)
+[Brewdog Beers & Food Matcher](https://beerfoodmatcher.firebaseapp.com/)
