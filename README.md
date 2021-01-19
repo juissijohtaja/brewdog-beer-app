@@ -2,7 +2,7 @@
 
 ![Brewdog Beers & Food Design](docs/beerfood.jpg)
 
-Testing Leaflet maps and Helsinki Open Events API with React.
+Brewdow Open API with React.
 
 ### Demo
 [Brewdog Beers & Food Matcher](https://beerfoodmatcher.firebaseapp.com/)
