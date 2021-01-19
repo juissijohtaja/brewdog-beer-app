@@ -2,7 +2,7 @@
 
 ![Brewdog Beers & Food Design](docs/beerfood.jpg)
 
-Brewdow Open API with React.
+Find a perfectly matched Brewdog beer for your food.
 
 ### Demo
 [Brewdog Beers & Food Matcher](https://beerfoodmatcher.firebaseapp.com/)
