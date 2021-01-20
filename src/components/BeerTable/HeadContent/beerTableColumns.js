@@ -12,8 +12,8 @@ const beerTableColumns = [
   {
     id: 'abv',
     label: 'ABV',
-    minWidth: 80,
-    align: 'right',
+    minWidth: 60,
+    align: 'center',
   },
   {
     id: 'description',

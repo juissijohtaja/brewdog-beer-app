@@ -2,6 +2,7 @@ import React from 'react'
 import Moment from 'react-moment'
 import TableCell from '@material-ui/core/TableCell'
 import TableRow from '@material-ui/core/TableRow'
+import Abv from '../Abv/Abv'
 import Box from '@material-ui/core/Box'
 import Avatar from '@material-ui/core/Avatar'
 import { makeStyles } from '@material-ui/core/styles'
@@ -38,7 +39,7 @@ const RowContent = ({ beer }) => {
         {beer.name}
       </TableCell>
       <TableCell className='abv' align='right'>
-        {beer.abv}
+        <Abv abv={beer.abv} />
       </TableCell>
       <TableCell className='description'>
         {beer.description

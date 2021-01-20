@@ -1,14 +1,14 @@
 import React from 'react'
 import '@testing-library/jest-dom/extend-expect'
 import initialStoreState from '../../../setupTests'
-import Responsible from './Responsible'
+import Abv from './Abv'
 import { Provider } from 'react-redux'
 import renderer from 'react-test-renderer'
 import configureStore from 'redux-mock-store'
 
 const mockStore = configureStore([])
 
-describe('Responsible Component', () => {
+describe('Abv Component', () => {
   let store, component
 
   beforeEach(() => {
@@ -16,30 +16,31 @@ describe('Responsible Component', () => {
     store.dispatch = jest.fn()
   })
 
-  test('should render name with one part with one initial', () => {
+  test('should render Low', () => {
     component = renderer.create(
       <Provider store={store}>
-        <Responsible responsible='Johnny' />
+        <Abv abv='Low' />
       </Provider>
     )
     expect(component.toJSON()).toMatchSnapshot()
   })
 
-  test('should render name with two parts with two initial', () => {
+  test('should render Medium', () => {
     component = renderer.create(
       <Provider store={store}>
-        <Responsible responsible='John Doe' />
+        <Abv abv='Medium' />
       </Provider>
     )
     expect(component.toJSON()).toMatchSnapshot()
   })
 
-  test('should render name with multiple parts with two initials', () => {
+  test('should render High', () => {
     component = renderer.create(
       <Provider store={store}>
-        <Responsible responsible='John Doe Old Boy' />
+        <Abv abv='High' />
       </Provider>
     )
     expect(component.toJSON()).toMatchSnapshot()
   })
+
 })
