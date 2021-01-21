@@ -3,7 +3,7 @@ import Box from '@material-ui/core/Box'
 import { makeStyles } from '@material-ui/core/styles'
 import { orange, red, lightGreen, grey } from '@material-ui/core/colors'
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles(() => ({
   tag: {
     borderRadius: 4,
     fontSize: '0.8em',
@@ -35,8 +35,6 @@ const useStyles = makeStyles(theme => ({
 
 const Abv = ({ abv }) => {
   const classes = useStyles()
-  console.log('abv', abv > 6 && abv <= 8)
-
 
   if (abv <= 5) {
     return <Box className={`${classes.tag} ${classes.simple}`} data-testid='abv'>
