@@ -10,7 +10,6 @@ import { useSelector, useDispatch } from 'react-redux'
 import Container from '@material-ui/core/Container'
 import Box from '@material-ui/core/Box'
 import LinearProgress from '@material-ui/core/LinearProgress'
-// testing
 
 const App = () => {
   const dispatch = useDispatch()
